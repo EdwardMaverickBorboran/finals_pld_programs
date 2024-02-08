@@ -9,3 +9,14 @@
 # vowels = ["a", "e", "i", "o", "u"]
 # count_vowels = vowels.count()
 # print("count_vowels")
+
+# The code that I created:
+
+name_input = input("Enter your name:")
+vowels = ("a, e, i, o ,u")
+count_vowels = 0
+
+for letters in name_input:
+    if letters.lower() in vowels:
+        count_vowels += 1
+print(f"{count_vowels}")
